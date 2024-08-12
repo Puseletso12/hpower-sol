@@ -1,0 +1,81 @@
+.services-prices {
+  background-color: $page-bg-grey;
+
+  span {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 30px;
+  }
+
+  &__title {
+    text-align: center;
+    margin: 0 auto;
+    font-family: $default-font;
+    font-size: 3rem;
+    font-weight: 400;
+    color: $main-text;
+    padding-top: 120px;
+    margin-bottom: 50px;
+  }
+
+  &__content {
+    width: 100%;
+    background: white;
+
+    &_flex {
+      display: flex;
+      padding: 2rem;
+    }
+  }
+
+  &__calc {
+    width: 50%;
+
+    p {
+      margin-left: 0;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.calc {
+  padding-left: 2rem;
+
+  &__title {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: $main-text;
+  }
+
+  &__box a {
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  &__flex {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .services-prices__title {
+    font-size: 1.8rem;
+  }
+
+  .services-prices__img {
+    display: none;
+  }
+
+  .services-prices__title {
+    font-size: 1.5rem;
+    margin-left: 0;
+    padding-top: 3rem;
+  }
+
+  .calc {
+    width: 70%;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+}
