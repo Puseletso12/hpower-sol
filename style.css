@@ -130,7 +130,7 @@ header {
 }
 
 .navbar a:hover {
-  color: white;
+  color: #f28f3a;
   border: 1px dashed var(--main-color);
   border-radius: 25px;
 }
