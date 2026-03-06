@@ -16,7 +16,7 @@
   --text-color: #fff;
   --main-color: #fcbf2e;
   --second-color: gray;
-  --other-color: #12141c;
+  --other-color: #d5dbf6;
   --third-color: #eb3038;
   --heading-font: 5.2rem;
   --second-heading: 3.5rem;
@@ -30,7 +30,7 @@ body {
 }
 
 header {
-  background-color: white;
+  /* background-color: white; */
   position: fixed;
   right: 0;
   top: 0;
